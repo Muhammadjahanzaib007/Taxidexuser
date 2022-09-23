@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:tagyourtaxi_driver/pages/loadingPage/loading.dart';
-import 'package:tagyourtaxi_driver/pages/login/otp_page.dart';
-import 'package:tagyourtaxi_driver/pages/noInternet/nointernet.dart';
-import 'package:tagyourtaxi_driver/translations/translation.dart';
+import 'package:taxidex_user/pages/loadingPage/loading.dart';
+import 'package:taxidex_user/pages/login/otp_page.dart';
+import 'package:taxidex_user/pages/noInternet/nointernet.dart';
+import 'package:taxidex_user/translations/translation.dart';
 import '../../styles/styles.dart';
 import '../../functions/functions.dart';
 import '../../widgets/widgets.dart';
@@ -54,8 +54,10 @@ class _LoginState extends State<Login> {
   Widget build(BuildContext context) {
     var media = MediaQuery.of(context).size;
 
-    return Material(
-      child: Directionality(
+    return Scaffold(
+      appBar: myAppBar(media,"text_login"),
+      backgroundColor: primary,
+      body: Directionality(
         textDirection: (languageDirection == 'rtl')
             ? TextDirection.rtl
             : TextDirection.ltr,
@@ -63,7 +65,11 @@ class _LoginState extends State<Login> {
           children: [
             (countries.isNotEmpty)
                 ? Container(
-                    color: page,
+
+                    decoration: BoxDecoration(
+                      color: page,
+                      borderRadius: BorderRadius.only(topLeft: Radius.circular(70))
+                    ),
                     padding: EdgeInsets.only(
                         top: MediaQuery.of(context).padding.top,
                         left: media.width * 0.08,
@@ -71,7 +77,7 @@ class _LoginState extends State<Login> {
                     height: media.height * 1,
                     width: media.width * 1,
                     child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
+                      crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         SizedBox(height: media.height * 0.195),
                         Text(

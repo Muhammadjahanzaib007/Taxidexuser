@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:tagyourtaxi_driver/functions/functions.dart';
-import 'package:tagyourtaxi_driver/pages/NavigatorPages/about.dart';
-import 'package:tagyourtaxi_driver/pages/NavigatorPages/editprofile.dart';
-import 'package:tagyourtaxi_driver/pages/NavigatorPages/faq.dart';
-import 'package:tagyourtaxi_driver/pages/NavigatorPages/favourite.dart';
-import 'package:tagyourtaxi_driver/pages/NavigatorPages/history.dart';
-import 'package:tagyourtaxi_driver/pages/NavigatorPages/makecomplaint.dart';
-import 'package:tagyourtaxi_driver/pages/NavigatorPages/referral.dart';
-import 'package:tagyourtaxi_driver/pages/NavigatorPages/selectlanguage.dart';
-import 'package:tagyourtaxi_driver/pages/NavigatorPages/sos.dart';
-import 'package:tagyourtaxi_driver/pages/NavigatorPages/walletpage.dart';
-import 'package:tagyourtaxi_driver/pages/onTripPage/map_page.dart';
-import 'package:tagyourtaxi_driver/styles/styles.dart';
-import 'package:tagyourtaxi_driver/translations/translation.dart';
+import 'package:taxidex_user/functions/functions.dart';
+import 'package:taxidex_user/pages/NavigatorPages/about.dart';
+import 'package:taxidex_user/pages/NavigatorPages/editprofile.dart';
+import 'package:taxidex_user/pages/NavigatorPages/faq.dart';
+import 'package:taxidex_user/pages/NavigatorPages/favourite.dart';
+import 'package:taxidex_user/pages/NavigatorPages/history.dart';
+import 'package:taxidex_user/pages/NavigatorPages/makecomplaint.dart';
+import 'package:taxidex_user/pages/NavigatorPages/referral.dart';
+import 'package:taxidex_user/pages/NavigatorPages/selectlanguage.dart';
+import 'package:taxidex_user/pages/NavigatorPages/sos.dart';
+import 'package:taxidex_user/pages/NavigatorPages/walletpage.dart';
+import 'package:taxidex_user/pages/onTripPage/map_page.dart';
+import 'package:taxidex_user/styles/styles.dart';
+import 'package:taxidex_user/translations/translation.dart';
 
 class NavDrawer extends StatefulWidget {
   const NavDrawer({Key? key}) : super(key: key);

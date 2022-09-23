@@ -1,4 +1,4 @@
-package package name
+package com.taxidex.user
 
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.android.FlutterFragmentActivity

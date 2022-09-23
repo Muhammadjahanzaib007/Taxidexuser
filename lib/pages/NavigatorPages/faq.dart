@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:location/location.dart';
-import 'package:tagyourtaxi_driver/functions/functions.dart';
-import 'package:tagyourtaxi_driver/pages/loadingPage/loading.dart';
-import 'package:tagyourtaxi_driver/pages/noInternet/nointernet.dart';
-import 'package:tagyourtaxi_driver/pages/onTripPage/map_page.dart';
-import 'package:tagyourtaxi_driver/styles/styles.dart';
-import 'package:tagyourtaxi_driver/translations/translation.dart';
+import 'package:taxidex_user/functions/functions.dart';
+import 'package:taxidex_user/pages/loadingPage/loading.dart';
+import 'package:taxidex_user/pages/noInternet/nointernet.dart';
+import 'package:taxidex_user/pages/onTripPage/map_page.dart';
+import 'package:taxidex_user/styles/styles.dart';
+import 'package:taxidex_user/translations/translation.dart';
 
 class Faq extends StatefulWidget {
   const Faq({Key? key}) : super(key: key);

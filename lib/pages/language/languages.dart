@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:tagyourtaxi_driver/pages/login/login.dart';
-import 'package:tagyourtaxi_driver/styles/styles.dart';
-import 'package:tagyourtaxi_driver/translations/translation.dart';
+import 'package:taxidex_user/pages/login/login.dart';
+import 'package:taxidex_user/styles/styles.dart';
+import 'package:taxidex_user/translations/translation.dart';
 import '../../functions/functions.dart';
 import '../../widgets/widgets.dart';
 

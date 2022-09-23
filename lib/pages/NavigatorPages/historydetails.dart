@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:tagyourtaxi_driver/functions/functions.dart';
-import 'package:tagyourtaxi_driver/pages/NavigatorPages/history.dart';
-import 'package:tagyourtaxi_driver/pages/NavigatorPages/makecomplaint.dart';
-import 'package:tagyourtaxi_driver/styles/styles.dart';
-import 'package:tagyourtaxi_driver/translations/translation.dart';
-import 'package:tagyourtaxi_driver/widgets/widgets.dart';
+import 'package:taxidex_user/functions/functions.dart';
+import 'package:taxidex_user/pages/NavigatorPages/history.dart';
+import 'package:taxidex_user/pages/NavigatorPages/makecomplaint.dart';
+import 'package:taxidex_user/styles/styles.dart';
+import 'package:taxidex_user/translations/translation.dart';
+import 'package:taxidex_user/widgets/widgets.dart';
 
 class HistoryDetails extends StatefulWidget {
   const HistoryDetails({Key? key}) : super(key: key);

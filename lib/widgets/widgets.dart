@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import '../functions/functions.dart';
 import '../styles/styles.dart';
 import 'package:google_fonts/google_fonts.dart';
+
+import '../translations/translation.dart';
 
 //button style
 
@@ -128,4 +131,17 @@ class _InputFieldState extends State<InputField> {
       onChanged: widget.onTap,
     );
   }
+}
+
+PreferredSizeWidget myAppBar(Size size, String text) {
+  return AppBar(
+    toolbarHeight: 70,
+    backgroundColor: Colors.transparent,
+    elevation: 0,
+    centerTitle: true,
+    title: Text(
+      (choosenLanguage.isEmpty) ? text : languages[choosenLanguage][text],
+      style: GoogleFonts.roboto(color: Colors.white, fontSize: size.width * sixteen, fontWeight: FontWeight.w600),
+    ),
+  );
 }

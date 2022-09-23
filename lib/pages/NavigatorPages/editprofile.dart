@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:tagyourtaxi_driver/functions/functions.dart';
-import 'package:tagyourtaxi_driver/pages/loadingPage/loading.dart';
-import 'package:tagyourtaxi_driver/pages/noInternet/nointernet.dart';
-import 'package:tagyourtaxi_driver/styles/styles.dart';
+import 'package:taxidex_user/functions/functions.dart';
+import 'package:taxidex_user/pages/loadingPage/loading.dart';
+import 'package:taxidex_user/pages/noInternet/nointernet.dart';
+import 'package:taxidex_user/styles/styles.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:tagyourtaxi_driver/translations/translation.dart';
+import 'package:taxidex_user/translations/translation.dart';
 import 'dart:io';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:tagyourtaxi_driver/widgets/widgets.dart';
+import 'package:taxidex_user/widgets/widgets.dart';
 
 class EditProfile extends StatefulWidget {
   const EditProfile({Key? key}) : super(key: key);

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tagyourtaxi_driver/functions/functions.dart';
-import 'package:tagyourtaxi_driver/functions/notifications.dart';
+import 'package:taxidex_user/functions/functions.dart';
+import 'package:taxidex_user/functions/notifications.dart';
 import 'pages/loadingPage/loadingpage.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/services.dart';

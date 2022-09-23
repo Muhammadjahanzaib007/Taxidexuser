@@ -6,15 +6,15 @@ import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 // import 'package:location/location.dart';
-import 'package:tagyourtaxi_driver/pages/NavigatorPages/editprofile.dart';
-import 'package:tagyourtaxi_driver/pages/NavigatorPages/history.dart';
-import 'package:tagyourtaxi_driver/pages/NavigatorPages/makecomplaint.dart';
-import 'package:tagyourtaxi_driver/pages/onTripPage/booking_confirmation.dart';
-import 'package:tagyourtaxi_driver/pages/login/get_started.dart';
-import 'package:tagyourtaxi_driver/pages/login/login.dart';
-import 'package:tagyourtaxi_driver/pages/onTripPage/map_page.dart';
-import 'package:tagyourtaxi_driver/pages/onTripPage/review_page.dart';
-import 'package:tagyourtaxi_driver/pages/referralcode/referral_code.dart';
+import 'package:taxidex_user/pages/NavigatorPages/editprofile.dart';
+import 'package:taxidex_user/pages/NavigatorPages/history.dart';
+import 'package:taxidex_user/pages/NavigatorPages/makecomplaint.dart';
+import 'package:taxidex_user/pages/onTripPage/booking_confirmation.dart';
+import 'package:taxidex_user/pages/login/get_started.dart';
+import 'package:taxidex_user/pages/login/login.dart';
+import 'package:taxidex_user/pages/onTripPage/map_page.dart';
+import 'package:taxidex_user/pages/onTripPage/review_page.dart';
+import 'package:taxidex_user/pages/referralcode/referral_code.dart';
 import 'package:http/http.dart' as http;
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_database/firebase_database.dart';
@@ -37,8 +37,8 @@ var audio = 'audio/notification_sound.mp3';
 bool internet = true;
 
 //base url
-String url = 'your base url'; //please add '/' at the end of url as 'yourwebsite.com/'
-String mapkey = 'map key';
+String url = 'https://tagxi-server.ondemandappz.com/'; //please add '/' at the end of url as 'yourwebsite.com/'
+String mapkey = 'AIzaSyCWY5OkDhEfGsaxFWhRs5VB-qRGG0-bLmw';
 
 //check internet connection
 
